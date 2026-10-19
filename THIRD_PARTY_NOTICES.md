@@ -7,11 +7,11 @@ The MIT license at the repository root covers project-authored source only. Exis
 | Go 1.23.4 runtime and standard library, used by the desktop installers | BSD-style Go license | third-party-licenses/Go/LICENSE |
 | Rust standard library and its dependencies | MIT / Apache-2.0 and component-specific terms | third-party-licenses/Rust/COPYRIGHT-library.html and licenses/ |
 | WABT wasm2c runtime support, included in native/direct-c/support/runtime | Apache-2.0 | third-party-licenses/WABT/LICENSE |
-| DXVK 2.6.2 libraries retained in the frozen APK | Zlib | third-party-licenses/DXVK/LICENSE |
+| DXVK 2.6.2 libraries bundled in the APK | Zlib | third-party-licenses/DXVK/LICENSE |
 | libadrenotools | MIT | third-party-licenses/libadrenotools/LICENSE |
 | liblinkernsbypass | MIT | third-party-licenses/liblinkernsbypass/LICENSE |
 
-The published source is a selection of the active native port. It does not include third-party game-engine translation, game assets, or alternate architecture source trees. Their presence in an external input or precompiled APK does not place them under this repository's MIT license. GTA V names, artwork, music, and other content remain subject to their owners' rights. No affiliation or endorsement is implied.
+This repository does not include the generated game-engine code or game assets. Their presence in the APK does not place them under this repository's MIT license. GTA V names, artwork, music, and other content remain subject to their owners' rights. No affiliation or endorsement is implied.
 
 Android Platform Tools is downloaded separately from Google when requested; it is not bundled in the desktop archive. Setup retains the downloaded package's NOTICE.txt. The Android SDK terms and the tool's own licenses apply.
 

@@ -47,7 +47,7 @@ const TEXTURE_EVICT_CHUNK: u64 = 4 << 20;
 const TEXTURE_EVICT_MIN_BYTES: u64 = 512 << 10;
 const TEXTURE_BACKING_LIMIT: u64 = 1 << 30;
 /// The null D3D11 layer's storage counters in guest memory (this game.wasm build): CPU storage live bytes,
-/// resource count, peak bytes, upload shadow bytes, each a u64 (evidence/loop-2026-10-13/re/heap2/report.md).
+/// resource count, peak bytes, upload shadow bytes, each a u64.
 const NULL_D3D_STORAGE_COUNTERS: usize = 8_324_208;
 /// Timestamps per frame slot for `debug.gta5.pass_profile`: two per render pass.
 const PROFILE_QUERIES: u32 = 1024;

@@ -184,7 +184,7 @@ impl Gpu {
     }
 
     pub fn allocate(&mut self, name: &str, requirements: vk::MemoryRequirements, location: MemoryLocation, linear: bool, dedicated: AllocationScheme) -> Result<Allocation, String> {
-        // A 1 MiB threshold saved 115 MiB of block slack but cost 6% FPS (evidence/memory-hillclimb-2026-10-19, M12).
+        // A 1 MiB threshold saved 115 MiB of block slack but cost 6% FPS.
         let scheme = if requirements.size >= DEDICATED_BYTES { dedicated } else { AllocationScheme::GpuAllocatorManaged };
         self.allocator.allocate(&AllocationCreateDesc { name, requirements, location, linear, allocation_scheme: scheme })
             .map_err(|error| format!("GPU memory for {name} ({} bytes): {error}", requirements.size))

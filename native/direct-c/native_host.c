@@ -322,7 +322,7 @@ static uint64_t gta_native_memory_size(const wasm_rt_shared_memory_t *memory) {
  * staying dirty in RAM or zram (a browser heap never shrinks). The buddy heap keeps its bookkeeping in a separate
  * node table and the renderer copies resource data at emit time, so nothing reads a freed block; its next owner gets
  * zero pages. Measured: anonymous RAM plus swap -478 MiB (buddy heaps) and -20 MiB (dlmalloc) over the 3-iteration
- * benchmark (evidence/memory-hillclimb-2026-10-19, M1 and M8). */
+ * memory benchmark. */
 void gta_native_release_freed(wasm_rt_shared_memory_t *memory, uint64_t address, uint64_t size) {
   if (size < 65536u || address > gta_native_memory_size(memory) || size > gta_native_memory_size(memory) - address) return;
   const uintptr_t page = (uintptr_t)getpagesize();
