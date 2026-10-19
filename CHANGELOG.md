@@ -23,4 +23,4 @@ PSS apportions shared physical memory; SwapPSS accounts for apportioned swapped 
 
 ### Known limits
 
-Experimental release. Device evidence is from the Galaxy S24. Windows and Linux setup binaries have not been run on those operating systems, and a fresh full USB installation was not completed for the new installer. Gameplay and graphics issues may remain. The APK retains development signing/debug settings and its existing package identity. Torrent downloads require reachable peers; availability without the original uploader online remains unconfirmed.
+First public release. Device evidence is from the Galaxy S24. Windows and Linux setup binaries have not been run on those operating systems, and a fresh full USB installation was not completed for the new installer. Gameplay and graphics issues may remain. The APK retains development signing/debug settings and its existing package identity. Torrent downloads require reachable peers; availability without the original uploader online remains unconfirmed.

@@ -2,7 +2,7 @@
 
 An unofficial native Android port using Vulkan. This repository is named **Vulkan-GTA-V**. The installed Android app is named **GTA V**.
 
-**2026.10.19 is an experimental release.** Gameplay evidence is from a Samsung Galaxy S24. Other phones, Windows, and Linux have not received a full installation test. The desktop programs prepare and install the Android game over USB; they do not run the game on your computer.
+**Current release: 2026.10.19.** Gameplay evidence is from a Samsung Galaxy S24. Other phones, Windows, and Linux have not received a full installation test. The desktop programs prepare and install the Android game over USB; they do not run the game on your computer.
 
 ## Downloads
 
@@ -53,7 +53,7 @@ Saved Galaxy S24 measurements at High settings and 75% rendering scale used thre
 
 Release validation covered APK signature/metadata, unchanged game payload, every local asset checksum, the actual macOS interface, and installer failure/resume behavior in a simulated ADB environment. Windows and Linux packages were cross-compiled. A new end-to-end phone installation was not completed for these desktop installers.
 
-The APK retains the development package identity `com.algoartist.gta5native.dev` and development signing/debug settings to preserve compatibility with the tested build. It is an experimental distribution, not an official Rockstar release.
+The APK retains the development package identity `com.algoartist.gta5native.dev` and development signing/debug settings to preserve compatibility with the tested build. This is an unofficial community distribution.
 
 ## Source
 
