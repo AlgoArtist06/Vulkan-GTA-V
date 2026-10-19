@@ -1,0 +1,11 @@
+[package]
+name = "gta5-native-platform"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[lib]
+name = "gta5_native_platform"
+path = "src/lib.rs"
+
+[dependencies]

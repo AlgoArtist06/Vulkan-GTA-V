@@ -1,0 +1,12 @@
+[package]
+name = "gta5-native-input"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[lib]
+name = "gta5_native_input"
+path = "src/lib.rs"
+
+[features]
+default = []

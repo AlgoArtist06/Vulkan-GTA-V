@@ -1,0 +1,30 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.algoartist.gta5native'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.algoartist.gta5native.dev'
+        minSdk 31
+        targetSdk 35
+        versionCode 20261019
+        versionName '2026.10.19'
+        ndk { abiFilters 'arm64-v8a' }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    packaging {
+        jniLibs {
+            // libadrenotools (custom Vulkan driver for the DXVK path) needs its hook libraries extracted to nativeLibraryDir.
+            useLegacyPackaging = true
+            excludes += ['**/._*']
+        }
+    }
+}

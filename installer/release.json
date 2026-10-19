@@ -1,0 +1,16 @@
+{
+  "version": "2026.10.19",
+  "repository": "AlgoArtist06/Vulkan-GTA-V",
+  "apk": {
+    "name": "GTA-V.apk",
+    "url": "https://github.com/AlgoArtist06/Vulkan-GTA-V/releases/download/v2026.10.19/GTA-V.apk",
+    "sha256": "5711ec6968943aba926340b26c1c47f2b12943cd6a4ecfbddfc2d105265bd191",
+    "bytes": 78447606
+  },
+  "patches": {
+    "name": "GTA-V-native-patches.zip",
+    "url": "https://github.com/AlgoArtist06/Vulkan-GTA-V/releases/download/v2026.10.19/GTA-V-native-patches.zip",
+    "sha256": "5599b5814868330d9a70586ebaf967b4cd3f99658a1c0684af60927ce96e41bb",
+    "bytes": 22503
+  }
+}
