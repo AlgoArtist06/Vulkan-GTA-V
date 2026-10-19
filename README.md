@@ -1,12 +1,12 @@
 # GTA V
 
-An unofficial native Android port using Vulkan. This repository is named **Vulkan-GTA-V**. The installed Android app is named **GTA V**.
+An unofficial native Android port using Vulkan.
 
-**Current release: 2026.10.19.** Gameplay evidence is from a Samsung Galaxy S24. Other phones, Windows, and Linux have not received a full installation test. The desktop programs prepare and install the Android game over USB; they do not run the game on your computer.
+**Current release: 1.0.0.** Gameplay evidence is from a Samsung Galaxy S24. The desktop programs prepare and install the Android game over USB; they do not run the game on your computer.
 
 ## Downloads
 
-Download and extract the package for your computer from [the release page](https://github.com/AlgoArtist06/Vulkan-GTA-V/releases/tag/v2026.10.19).
+Download and extract the package for your computer from [the 1.0.0 release page](https://github.com/AlgoArtist06/Vulkan-GTA-V/releases/tag/v2026.10.19).
 
 | Computer | Installer | Run after extraction |
 | --- | --- | --- |
@@ -23,7 +23,7 @@ The desktop downloads are unsigned by a commercial publisher. macOS uses an ad-h
 Game assets are **not committed to this repository**. Supply the matching **GTA5Webport.zip** (21,193,445,535 bytes). The original ZIP can be used directly; a second extracted 21 GB copy is unnecessary.
 
 - [Download the torrent metadata](https://github.com/AlgoArtist06/Vulkan-GTA-V/releases/download/v2026.10.19/GTA5Webport-base.torrent).
-- Copy the direct magnet below into your torrent client's Add Magnet Link dialog, or [download the magnet as text](https://github.com/AlgoArtist06/Vulkan-GTA-V/releases/download/v2026.10.19/GTA5Webport-base.magnet.txt). GitHub removes clickable magnet links from rendered Markdown.
+- Copy the direct magnet below into your torrent client's Add Magnet Link dialog, or [download the magnet as text](https://github.com/AlgoArtist06/Vulkan-GTA-V/releases/download/v2026.10.19/GTA5Webport-base.magnet.txt).
 
 ```text
 magnet:?xt=urn:btih:57a4193cc3d3f069ce436fcda040ed4c705b76c7&dn=GTA5Webport.zip&tr=udp://tracker.opentrackr.org:1337/announce&tr=udp://open.stealth.si:80/announce&tr=udp://tracker.torrent.eu.org:451/announce&tr=udp://open.demonii.com:1337/announce&tr=udp://exodus.desync.com:6969/announce&tr=http://tracker2.dler.org:80/announce&tr=http://tracker.dler.com:6969/announce
