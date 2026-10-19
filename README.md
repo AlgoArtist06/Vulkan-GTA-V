@@ -23,7 +23,7 @@ The desktop downloads are unsigned by a commercial publisher. macOS uses an ad-h
 Game assets are **not committed to this repository**. Supply the matching **GTA5Webport.zip** (21,193,445,535 bytes). The original ZIP can be used directly; a second extracted 21 GB copy is unnecessary.
 
 - [Download the torrent metadata](https://github.com/AlgoArtist06/Vulkan-GTA-V/releases/download/v2026.10.19/GTA5Webport-base.torrent).
-- [Open the direct magnet link](magnet:?xt=urn:btih:57a4193cc3d3f069ce436fcda040ed4c705b76c7&dn=GTA5Webport.zip&tr=udp://tracker.opentrackr.org:1337/announce&tr=udp://open.stealth.si:80/announce&tr=udp://tracker.torrent.eu.org:451/announce&tr=udp://open.demonii.com:1337/announce&tr=udp://exodus.desync.com:6969/announce&tr=http://tracker2.dler.org:80/announce&tr=http://tracker.dler.com:6969/announce). If GitHub or your browser does not open magnet links, copy the entire line below into your torrent client's Add Magnet Link dialog.
+- Copy the direct magnet below into your torrent client's Add Magnet Link dialog, or [download the magnet as text](https://github.com/AlgoArtist06/Vulkan-GTA-V/releases/download/v2026.10.19/GTA5Webport-base.magnet.txt). GitHub removes clickable magnet links from rendered Markdown.
 
 ```text
 magnet:?xt=urn:btih:57a4193cc3d3f069ce436fcda040ed4c705b76c7&dn=GTA5Webport.zip&tr=udp://tracker.opentrackr.org:1337/announce&tr=udp://open.stealth.si:80/announce&tr=udp://tracker.torrent.eu.org:451/announce&tr=udp://open.demonii.com:1337/announce&tr=udp://exodus.desync.com:6969/announce&tr=http://tracker2.dler.org:80/announce&tr=http://tracker.dler.com:6969/announce
@@ -47,7 +47,7 @@ The installer updates the existing package without uninstalling it or clearing s
 
 ## What is in this release
 
-The Android payload is the final native memory build completed on 19 October 2026 at approximately 06:03 IST. Only the APK's app name, version metadata, ZIP alignment, and signature packaging were updated. All eight native libraries and all 59 other payload entries match that frozen APK.
+The Android payload is the final native memory build completed on 19 October 2026 at approximately 06:03 IST. Only the APK's app name, version metadata, ZIP alignment, and signature packaging were updated. All 59 non-manifest payload entries, including all eight native libraries, match that frozen APK.
 
 Saved Galaxy S24 measurements at High settings and 75% rendering scale used three runs for each build. Combined PSS and SwapPSS fell from 5,859 MiB to 4,449 MiB (24.1%). These are recorded measurements for that workload, not a promise of performance on every device. See [CHANGELOG.md](CHANGELOG.md).
 
