@@ -6,7 +6,7 @@ You need:
 
 - A Windows x64, macOS 12 or later (Intel or Apple silicon), or Linux x64 computer with a web browser.
 - A USB data cable.
-- An Android 12 or later phone with ARM64 and Vulkan, and at least 23 GB of free storage. The installer counts files that are already on the phone.
+- A phone that meets the [phone requirements](README.md#phone-requirements). The installer counts files that are already on the phone when it checks free storage.
 - GTA5Webport.zip, downloaded with the torrent or magnet link in the [README](README.md#assets). Do not extract it; the installer reads the ZIP directly.
 
 The game has only been tested on a Samsung Galaxy S24.

@@ -2,9 +2,27 @@
 
 An unofficial native Android port of GTA V using Vulkan.
 
-**Current release: 1.0.0.**
+Current release: 1.0.0.
 The game runs on the phone.
 The desktop installers only prepare the files and install them on the phone over USB.
+
+## Phone requirements
+
+| | Minimum | Recommended |
+| --- | --- | --- |
+| Android | 12 | 12 or later |
+| CPU | Snapdragon 8 Gen 1 | Snapdragon 8 Gen 3 |
+| GPU | Adreno 730 | Adreno 750 |
+| RAM | 8 GB | 12 GB |
+| Free storage | 22 GB | 25 GB |
+
+The installer checks the Android version, CPU type, Vulkan support, and free storage before it copies anything.
+The GPU must support Vulkan 1.3, BC texture compression, and the Vulkan extensions `VK_EXT_custom_border_color` and `VK_EXT_robustness2`.
+Many Mali GPUs do not support BC textures, so the game does not start on them.
+
+The only tested phone is a Snapdragon Galaxy S24 with 8 GB of RAM.
+The minimum chip is the oldest Snapdragon that meets these GPU needs, but it has not been tested.
+The game uses about 6 GB of RAM, so on 8 GB phones Android can close it when other apps need memory.
 
 ## Downloads
 
@@ -25,8 +43,8 @@ The installers are not signed with a paid certificate, and the macOS app is not 
 
 ## Assets
 
-Game assets are **not included in this repository**.
-You need **GTA5Webport.zip** (21,193,445,535 bytes).
+Game assets are not included in this repository.
+You need GTA5Webport.zip (21,193,445,535 bytes).
 The installer reads the ZIP directly, so you do not need to extract it.
 
 - [Download the torrent file](https://github.com/AlgoArtist06/Vulkan-GTA-V/releases/download/v2026.10.19/GTA5Webport-base.torrent).
@@ -47,7 +65,7 @@ This project's license does not give you any rights to the game or its assets.
 
 ## Install
 
-1. Use an Android 12 or later phone with ARM64 and Vulkan, and keep at least **23 GB free**.
+1. Check that your phone meets the [requirements](#phone-requirements).
 2. Enable Developer options and USB debugging. Connect a USB data cable, unlock the phone, and accept the USB debugging prompt.
 3. Open the installer. Click **Set up USB tools** if needed, then **Refresh phones**, and select your phone.
 4. Paste the path to GTA5Webport.zip or the asset folder. Click **Prepare and install**. Keep the phone connected until the installer says the installation is verified.
